@@ -3,7 +3,7 @@
 	* 
 	*/
 	interface OperatorInterface {
-		public function run($firstOperator, $secondOperator);
+		public function run($operands);
 	}
 
 ?>

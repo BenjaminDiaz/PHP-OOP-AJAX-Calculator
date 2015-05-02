@@ -4,9 +4,7 @@
 	*/
 	class Calculator
 	{
-		private $firstOperand;
-
-		private $secondOperand;
+		private $operands;
 
 		private $operator;
 
@@ -16,13 +14,12 @@
 			$this->operator = $operator;
 		}
 
-		function setOperands($firstOperand, $secondOperand) {
-			$this->firstOperand = $firstOperand;
-			$this->secondOperand = $secondOperand;
+		function setOperands($operands) {
+			$this->operands = $operands;
 		}
 		
 		function calculate() {
-			$this->result = $this->operator->run($this->firstOperand, $this->secondOperand);
+			$this->result = $this->operator->run($this->operands);
 		}
 
 		function getResult() {

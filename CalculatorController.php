@@ -12,7 +12,8 @@
 	$data = $_GET;
 
 	if (isset($data['firstOperand']) && isset($data['secondOperand'])) {
-		$c->setOperands($data['firstOperand'], $data['secondOperand']);
+		$operands = array($data['firstOperand'], $data['secondOperand']);
+		$c->setOperands($operands);
 	}
 
 	if (isset($data['operator'])) {

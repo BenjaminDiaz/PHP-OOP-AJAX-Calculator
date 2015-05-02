@@ -5,8 +5,8 @@
 	class Adder implements OperatorInterface
 	{
 		
-		function run($firstOperand, $secondOperand){
-			return (float)$firstOperand + $secondOperand;
+		function run($operands){
+			return (float)$operands[0] + $operands[1];
 		}
 	}
 ?>
