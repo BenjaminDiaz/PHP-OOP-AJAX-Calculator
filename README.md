@@ -11,5 +11,5 @@ Functionality:
 To-do:
 * Implement the other basic operations
 * Add a button to clear the result
-
+* Change the ajax data type to JSON
 
