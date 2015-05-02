@@ -51,7 +51,7 @@
 					<button class="btn btn-default numberBtn" type="submit">1</button>
 					<button class="btn btn-default numberBtn" type="submit">2</button>
 					<button class="btn btn-default numberBtn" type="submit">3</button>
-					<button id="substractor" class="btn btn-default operatorBtn" type="submit">-</button>
+					<button id="subtractor" class="btn btn-default operatorBtn" type="submit">-</button>
 				</div>
 				<div class="col-sm-4 col-sm-offset-4">					
 					<button class="btn btn-default numberBtn" type="submit">0</button>

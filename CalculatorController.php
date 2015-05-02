@@ -22,8 +22,15 @@
 			$c->setOperator(new Adder());
 			break;
 			case 'subtractor':
-			$c->setOperator(new Substractor());
+			$c->setOperator(new Subtractor());
 			break;
+			case 'multiplier':
+			$c->setOperator(new Multiplier());
+			break;
+			case 'divider':
+			$c->setOperator(new Divider());
+			break;
+
 		}
 	}
 	
