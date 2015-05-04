@@ -3,7 +3,7 @@ This is a really simple web application calculator using Object Oriented PHP and
 It is also my first project on GitHub.
 
 Functionality:
-* Currently only supports the adding operation
+* Currently supports the 4 basic operations (add, subtract, multiply and divide)
 * Supports floating numbers
 * The result will be shown whether you click on '=' or another operator
 * The result will be cleared at refresh
